@@ -1,0 +1,26 @@
+{
+  "name": "issue-backend",
+  "version": "1.0.0",
+  "description": "this is the backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "7.6.2",
+    "babel-watch": "^7.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  }
+}
